@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doviz.Entities", "Doviz.Entities\Doviz.Entities.csproj", "{AC31CCE9-4A40-486B-ADFA-E83F886AC8CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doviz.App", "Doviz.App\Doviz.App.csproj", "{90CF0D65-641E-4ADE-A4E8-373D91B9F55E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doviz.Core", "Doviz.Core\Doviz.Core.csproj", "{615CF481-0CD1-4548-8433-E2CEAE1E8B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doviz.ApiServis", "Doviz.ApiServis\Doviz.ApiServis.csproj", "{FF02BE5D-5D15-43D2-BFD2-57E14BA85FD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TSQL", "TSQL", "{DC59D865-85B4-4086-84DC-08A973575063}"
+	ProjectSection(SolutionItems) = preProject
+		TSQL kodları.sql = TSQL kodları.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC31CCE9-4A40-486B-ADFA-E83F886AC8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC31CCE9-4A40-486B-ADFA-E83F886AC8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC31CCE9-4A40-486B-ADFA-E83F886AC8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC31CCE9-4A40-486B-ADFA-E83F886AC8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CF0D65-641E-4ADE-A4E8-373D91B9F55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CF0D65-641E-4ADE-A4E8-373D91B9F55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CF0D65-641E-4ADE-A4E8-373D91B9F55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CF0D65-641E-4ADE-A4E8-373D91B9F55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615CF481-0CD1-4548-8433-E2CEAE1E8B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615CF481-0CD1-4548-8433-E2CEAE1E8B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615CF481-0CD1-4548-8433-E2CEAE1E8B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615CF481-0CD1-4548-8433-E2CEAE1E8B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF02BE5D-5D15-43D2-BFD2-57E14BA85FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF02BE5D-5D15-43D2-BFD2-57E14BA85FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF02BE5D-5D15-43D2-BFD2-57E14BA85FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF02BE5D-5D15-43D2-BFD2-57E14BA85FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {878BAD57-2866-48B7-9B5E-DFA2B7D4D526}
+	EndGlobalSection
+EndGlobal
